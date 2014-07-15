@@ -9,7 +9,7 @@ A blog site where she can put her travel blogs, allow people to comment on them,
 
 Links to her CV, travel experience resume, and any other work related documents. 
 
-`````
+`````shell
 Initial setup of rails app using postgresql as the database, rspec and cucumber for testing. Postgresql is used, so that it can be launched on Heroku if necessary. 
 `````
 
