@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sarah is works in the travel industry and writes blogs about the destinations visited. She also takes many photos! She also does destinational write up's and hotel inspections, not to mention her own travel CV for work, and her travel experience resume. 
 
-Things you may want to cover:
+This project is to provide a resource to put all of this in one place, in her own site - Sarah's Blog. 
 
-* Ruby version
+Initial requirements. 
+A blog site where she can put her travel blogs, allow people to comment on them, and where she can add pictures to the blogs. 
 
-* System dependencies
+Links to her CV, travel experience resume, and any other work related documents. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`````
+Initial setup of rails app using postgresql as the database, rspec and cucumber for testing. Postgresql is used, so that it can be launched on Heroku if necessary. 
+`````
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
