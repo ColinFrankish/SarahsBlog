@@ -3,6 +3,8 @@ Sarahsblog::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
   get 'homepage/index'
   # You can have the root of your site routed with "root"
+  resources :articles
+
   root 'homepage#index'
   get 'homepage/articles/index' => 'articles#index'
   get 'articles/index' => 'articles#index'
