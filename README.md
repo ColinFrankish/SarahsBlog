@@ -1,4 +1,4 @@
-== README
+## Sarah's Travel blog
 
 Sarah is works in the travel industry and writes blogs about the destinations visited. She also takes many photos! She also does destinational write up's and hotel inspections, not to mention her own travel CV for work, and her travel experience resume. 
 
