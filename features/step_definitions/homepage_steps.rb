@@ -17,3 +17,12 @@ end
 Then(/^I should see 'All Sarah's Blogs'$/) do
   expect(page).to have_content("All Sarah's Blogs")
 end
+
+Given(/^I click 'CV'$/) do
+  visit 'homepage/index'
+  click_link 'CV'
+end
+
+Then(/^I should see 'Sarah Frankish CV'$/) do
+  expect(page).to have_content("Sarah Frankish CV")
+end

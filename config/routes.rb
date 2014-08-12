@@ -6,6 +6,8 @@ Sarahsblog::Application.routes.draw do
   root 'homepage#index'
   get 'homepage/articles/index' => 'articles#index'
   get 'articles/index' => 'articles#index'
+  get 'homepage/CV' => 'homepage#cv'
+  get 'homepage/homepage/CV' => 'homepage#cv'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
