@@ -7,7 +7,7 @@ Then(/^I should see 'Welcome to Sarah's Travel Blogsite'$/) do
 end
 
 Given(/^I am on the homepage$/) do
-  visit 'homepage/index'
+  visit '/'
 end
 
 Given(/^I click 'All Articles'$/) do
@@ -19,7 +19,7 @@ Then(/^I should see 'All Sarah's Blogs'$/) do
 end
 
 Given(/^I click 'CV'$/) do
-  visit 'homepage/index'
+  visit '/'
   click_link 'CV'
 end
 
