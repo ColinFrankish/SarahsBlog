@@ -13,4 +13,5 @@ Links to her CV, travel experience resume, and any other work related documents.
 Initial setup of rails app using postgresql as the database, rspec and cucumber for testing. Postgresql is used, so that it can be launched on Heroku if necessary. 
 `````
 
-
+### Notes. 
+tbc
