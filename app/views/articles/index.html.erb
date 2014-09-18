@@ -1,13 +1,13 @@
 <h1>All Sarah's Blogs</h1>
 <center>
-  <table>
+  <table border='2'>
     <tr>
-      <th><strong> Title </strong> </th>
+      <th> Title</th>
       <th> Article </th>
     </tr>
     <% @articles.each do |f| %>
       <tr>
-        <td><%= f.title %></td>
+        <td><strong><%= f.title %></strong></td>
         <td><%= f.text %></td>
       <% end %>
       </tr>

@@ -6,9 +6,10 @@ h1 {
 }
 table {
   text-align: center;
+  width: 70%;
 }
-/*p {
- text-align: center;
- font-size: 20px;
+
+table, tr, th {
+  min-width: 25em;
+  min-height: 20em;
 }
-*/
