@@ -13,3 +13,8 @@ table, tr, th {
   min-width: 25em;
   min-height: 20em;
 }
+.button-bar {
+  width: 100%;
+  float: right;
+  table-layout: auto;
+}

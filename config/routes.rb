@@ -8,7 +8,7 @@ Sarahsblog::Application.routes.draw do
   root 'homepage#index'
   get '/articles'         => 'articles#index'
   get 'homepage/CV'       => 'homepage#cv'
-
+  #get '/articles/:id/edit'     => 'articles#edit'
 
 
   # Example of regular route:
