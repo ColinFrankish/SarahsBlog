@@ -8,7 +8,13 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
 
-  def edit
+  def create
+    @article= Article.create(article_params)
+    redirect_to root_path
+  end
 
+  private
+  def article_params
+    params.require(:article).permit(:title, :text)
   end
 end
