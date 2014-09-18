@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
 
   def create
     @article= Article.create(article_params)
-    redirect_to root_path
+    redirect_to articles_path
   end
 
   private
