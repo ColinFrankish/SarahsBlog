@@ -1,0 +1,16 @@
+<h1>All Sarah's Blogs</h1>
+<center>
+  <table>
+    <tr>
+      <th><strong> Title </strong> </th>
+      <th> Article </th>
+    </tr>
+    <% @articles.each do |f| %>
+      <tr>
+        <td><%= f.title %></td>
+        <td><%= f.text %></td>
+      <% end %>
+      </tr>
+    
+  </table>
+</center>
